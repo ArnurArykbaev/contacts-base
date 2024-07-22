@@ -1,0 +1,1 @@
+import{G as o,r as n}from"./index-AxVYONTu.js";const i=o("contactsStore",()=>{const e=n([{id:1,key:"1",name:"Mike",phone:87771111111,email:"mike@mail.com"},{id:2,key:"2",name:"John",phone:87772222222,email:"john@mail.com"}]);return{getContacts:()=>e.value,setContacts:t=>{t&&t.length&&(e.value=t)},clearContacts:()=>{e.value=[]}}});export{i as u};
