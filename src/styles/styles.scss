@@ -1,0 +1,17 @@
+@import "@/styles/helpers/variables";
+@import "@/styles/helpers/fonts";
+@import "@/styles/helpers/null";
+
+/* ant design styles */
+#app .ant-pagination {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.ant-btn-success {
+    color: #ffff;
+    background-color: #00C851;
+}
+/* ant design styles ends */

@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "ES2020", // Change this to ES2020 or any other supported option like 'es2022', 'esnext', etc.
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+
+    /* Linting */
+    "strict": false,
+    "noFallthroughCasesInSwitch": true,
+    
+    /* Add myself */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+    "node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+    "node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+    "yandex.d.ts"
+  ],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Russo_One';
+    src: url('/src/fonts/RussoOne-Regular.eot');
+    src: url('/src/fonts/RussoOne-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/src/fonts/RussoOne-Regular.woff2') format('woff2'),
+        url('/src/fonts/RussoOne-Regular.woff') format('woff'),
+        url('/src/fonts/RussoOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('/src/fonts/Montserrat-Regular.eot');
+    src: url('/src/fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/src/fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('/src/fonts/Montserrat-Regular.woff') format('woff'),
+        url('/src/fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('/src/fonts/Montserrat-Medium.eot');
+    src: url('/src/fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/src/fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('/src/fonts/Montserrat-Medium.woff') format('woff'),
+        url('/src/fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('/src/fonts/Montserrat-SemiBold.eot');
+    src: url('/src/fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/src/fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('/src/fonts/Montserrat-SemiBold.woff') format('woff'),
+        url('/src/fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
